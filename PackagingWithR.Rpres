@@ -40,7 +40,19 @@ Why Package?
 - It's shareable
 - It's maintainable
 - You can contribute to your favorite packages easier
+- Makes compiled code easier to use
 
+A Few Package Myths
+=======================================================
+
+Packages: 
+- do not have to be listed on CRAN (and getting them on CRAN can be 
+more hassle than its worth)
+- do not have to be constantly updated (though major changes in their 
+dependencies can make them hard to use)
+- do not have to be distributed (you can use them locally)
+- do not have to invent new statistical methods (convenience functions are great)
+- do not have to be big (a simple thing done well...)
 
 A Warning
 =======================================================
@@ -83,9 +95,29 @@ development than ever.
 
 `devtools::create("path/to/package/pkgname")`
 
-Makes - an `R/` directory, `DESCRIPTION` file, and `NAMESPACE` file + an RStudio 
+Makes an `R/` directory, `DESCRIPTION` file, and `NAMESPACE` file + an RStudio 
 project
 
+Demo
+=====================================================
 
+Code all the things
+
+<iframe src="http://giphy.com/embed/g8GfH3i5F0hby?html5=true" width="480" height="339" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+Common Issues
+================================================
+
+- Generics, methods, classes
+- Documentation
+- Dependencies and imports
+- Unit testing and reversion
+
+Planning
+=================================================
+
+Think about the organization of your package a lot. Just like writing, you may 
+find yourself reorganizing a few times as the package changes. 
 
 
